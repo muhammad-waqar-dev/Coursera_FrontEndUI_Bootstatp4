@@ -2,7 +2,7 @@
   "name": "bootstrap_assignment_1",
   "version": "1.0.0",
   "description": "coursera assinments and\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DfrontendUI bootstrap assinments\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dgnments",
-  "main": "index.html",
+  "main": "aboutus.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
