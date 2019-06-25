@@ -37,13 +37,22 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-7">
+                <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid" />
+                    <div class="row align-self-center">
+                        <div class="col-6 align-self-center">
+                            <img src="img/logo.png" class="img-fluid" /></div>
+                        <div class="col-6 align-self-center ">
+                            <a href="#resform">
+<button type="button" class="btn btn-sm btn-block bg-warning" onclick=" document.getElementById('resform')">Reserve Table</button>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -77,15 +86,18 @@
             <div class="col-sm-8 order-sm-last">
                 <div class="media">
                     <div class="media-body">
-                <h2>Weekend Grand Buffet
-                    <spna class="badge badge-danger">NEW</spna>
-                </h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different
-                    salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly
-                    and soft drinks. All for just $19.99 per person </p></div>
+                        <h2>Weekend Grand Buffet
+                            <spna class="badge badge-danger">NEW</spna>
+                        </h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
+                            different
+                            salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing
+                            bubbly
+                            and soft drinks. All for just $19.99 per person </p>
+                    </div>
                     <img class="d-flex mr-3 img-thumnail align-self-center" src="img/buffet.png" alt="uthappizza" />
+                </div>
             </div>
-        </div>
         </div>
 
         <div class="row row-content align-self-center">
@@ -105,14 +117,14 @@
                 </div>
             </div>
         </div>
-        <div class="row row-content align-self-center">
+        <div id="resform" class="row row-content align-self-center" >
             <div class="card offset-4 ">
                 <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
                 <div class="card-body">
-                    <form>
+                    <form >
                         <div class="form-group row">
                             <label for="telnum" class="col-12 col-md-2 col-form-label">Number of Guests</label>
-                            <div  class="col-12 col-md-9">
+                            <div class="col-12 col-md-9">
                                 <input type="radio" name="radio">1
                                 <input type="radio" name="radio">2
                                 <input type="radio" name="radio">3
@@ -140,9 +152,9 @@
                         <div class="form-group row center-block">
                             <div class="col-12 col-md-2"> </div>
                             <div class="col-12 col-sm">
-                                    <button type="submit" class="btn btn-primary align-self-center">Reserve</button>
+                                <button type="submit" class="btn btn-primary align-self-center">Reserve</button>
                             </div>
-                           
+
                         </div>
                     </form>
 
