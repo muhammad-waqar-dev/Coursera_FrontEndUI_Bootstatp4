@@ -36,7 +36,9 @@ body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
-
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
 .navbar-dark {
      background-color: $background-dark;
 }
